@@ -27,7 +27,7 @@ const handleClear = (ctx, canvas) => {
 }
 
 const handlePredict = (canvas) => {
-    var image = canvas.toDataURL('image/png');
+    const image = canvas.toDataURL('image/png');
     fetch(
         "http://localhost:5000/predict",
         {

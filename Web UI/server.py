@@ -2,7 +2,7 @@ from ml_model.model import L_layer_model
 
 from flask import Flask
 from flask import request, jsonify
-from flask import send_from_directory, render_template
+from flask import render_template
 
 from utils import extract_dataurl_content, normalize_image
 
