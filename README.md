@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This project integrates an L-Layer machine learning model, made from scratch, and trained using the MNIST dataset, in a simple Flask application. The user can access a web UI where they can draw a digit, and the server predicts it.
+This project integrates an L-Layer machine learning model, made from scratch and trained using the MNIST dataset, in a simple Flask application. The user can access a web UI where they can draw a digit, and the server predicts it.
 
 ## How It Works
 
-The image is sent to the server, converted into a grayscale image, then centered by calculating the center of mass of pixels and padding/slicing it accordingly. This is to ensure that it adheres to the criteria by which the MNIST dataset is made.r.
+The image is sent to the server, converted into a grayscale image, then centered by calculating the center of mass of pixels and padding/slicing it accordingly. This is to ensure that it adheres to the criteria by which the MNIST dataset is made.
 
 ## How to Run
 
