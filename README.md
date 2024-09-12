@@ -38,7 +38,7 @@ docker run --rm -p 8080:8080 digit-classifier-v1.0.0
 If you want to run the app without Docker, and after installing Python and the app's requirements, you can simply run:
 
 ```bash
-cd <CLONE-DIR>/web-app/ && python -m flask --app server run -h 0.0.0.0 -p 8080
+cd <CLONE-DIR>/web-app/ && python -m flask --app server run -p 8080
 ```
 
 Once the server is up and running, head to [http://localhost:8080](http://localhost:8080).
