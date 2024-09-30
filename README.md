@@ -42,3 +42,7 @@ cd <CLONE-DIR>/web-app/ && python -m flask --app server run -p 8080
 ```
 
 Once the server is up and running, head to [http://localhost:8080](http://localhost:8080).
+<video src='https://github.com/user-attachments/assets/4eab39fe-67b0-4eb9-b68d-c62c566e6ad9' width=180/>
+
+
+
