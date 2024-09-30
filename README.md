@@ -3,6 +3,7 @@
 ## Introduction
 
 This project integrates an L-Layer machine learning model, made from scratch and trained using the MNIST dataset, in a simple Flask application. The user can access a web UI where they can draw a digit, and the server predicts it.
+<video src='https://github.com/user-attachments/assets/4eab39fe-67b0-4eb9-b68d-c62c566e6ad9' width=180/>
 
 ## How It Works
 
@@ -42,7 +43,3 @@ cd <CLONE-DIR>/web-app/ && python -m flask --app server run -p 8080
 ```
 
 Once the server is up and running, head to [http://localhost:8080](http://localhost:8080).
-<video src='https://github.com/user-attachments/assets/4eab39fe-67b0-4eb9-b68d-c62c566e6ad9' width=180/>
-
-
-
